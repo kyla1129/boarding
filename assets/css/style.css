@@ -1,0 +1,124 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+#header, #navbar, #footer {
+    background-color: #333;
+    color: #fff;
+    padding: 1em;
+    text-align: center;
+}
+
+#navbar {
+    display: flex;
+    justify-content: center;
+    gap: 1em;
+}
+
+#navbar a {
+    color: #fff;
+    text-decoration: none;
+}
+
+main {
+    padding: 2em;
+    text-align: center;
+}
+
+#hero {
+    background: url('../images/hero-bg.jpg') no-repeat center center/cover;
+    color: #fff;
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.hero-content h1 {
+    font-size: 3em;
+    margin: 0;
+}
+
+.hero-content p {
+    font-size: 1.2em;
+    margin: 20px 0;
+}
+
+.cta-button {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.cta-button:hover {
+    background-color: #555;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+#featured, #search, #signup, #login, #dashboard, #listings, #details {
+    padding: 50px 20px;
+    background-color: #fff;
+    margin-bottom: 20px;
+}
+
+#featured h2, #search h2, #signup h2, #login h2, #dashboard h2, #listings h2, #details h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.featured-grid, .listing-grid {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.featured-grid .featured-item, .listing-grid .listing-item {
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    width: 30%;
+    text-align: center;
+}
+
+.featured-grid .featured-item img, .listing-grid .listing-item img {
+    width: 100%;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+#search-form input, #search-form select, #signup-form input, #signup-form select, #login-form input, .booking-form input, .booking-form select, .booking-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#search-form button, #signup-form button, #login-form button, .booking-form button {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#search-form button:hover, #signup-form button:hover, #login-form button:hover, .booking-form button:hover {
+    background-color: #555;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}

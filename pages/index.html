@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Renting Website</title>
+    <link rel="stylesheet" href="../assets/css/style.css">
+</head>
+<body>
+    <!-- Header Component -->
+    <div id="header">
+        <!-- Include header.html here -->
+        <header>
+            <h1>Renting Website</h1>
+        </header>
+    </div>
+
+    <!-- Navigation Bar Component -->
+    <div id="navbar">
+        <!-- Include navbar.html here -->
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="tenant-listings.html">Tenants</a>
+            <a href="landlord-dashboard.html">Landlords</a>
+            <a href="signup.html">Sign Up</a>
+            <a href="login.html">Log In</a>
+        </nav>
+    </div>
+
+    <main>
+        <section id="hero">
+            <div class="hero-content">
+                <h1>Welcome to the Renting Website</h1>
+                <p>Your one-stop solution for renting properties.</p>
+                <a href="#search" class="cta-button">Find a Boarding House</a>
+            </div>
+        </section>
+
+        <section id="featured">
+            <div class="container">
+                <h2>Featured Boarding Houses</h2>
+                <div class="featured-grid">
+                    <!-- Add featured boarding houses here -->
+                </div>
+            </div>
+        </section>
+
+        <section id="search">
+            <div class="container">
+                <h2>Search Boarding Houses</h2>
+                <form id="search-form">
+                    <input type="text" name="location" placeholder="Location">
+                    <input type="number" name="price" placeholder="Max Price">
+                    <select name="amenities">
+                        <option value="">Select Amenities</option>
+                        <option value="wifi">WiFi</option>
+                        <option value="parking">Parking</option>
+                        <option value="laundry">Laundry</option>
+                    </select>
+                    <button type="submit">Search</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer Component -->
+    <div id="footer">
+        <!-- Include footer.html here -->
+        <footer>
+            <p>&copy; 2025 Renting Website. All rights reserved.</p>
+        </footer>
+    </div>
+
+    <script src="../assets/js/scripts.js"></script>
+</body>
+</html>
